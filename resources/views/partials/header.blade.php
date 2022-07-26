@@ -18,3 +18,5 @@
     {{ $voice }}
 @endforeach
 
+<input type="text" placeholder="Search">
+
