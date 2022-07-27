@@ -14,7 +14,7 @@ $voices = ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Collectibles', 'Vid
         </span>
     </div>
     <div class="flex-header">
-        <img src="" alt="">
+        <img class="logo-dc" src="{{ asset('img/dc-logo.png') }}" alt="">
         @foreach ($voices as $voice)
             <span>{{ $voice }}</span>
         @endforeach
