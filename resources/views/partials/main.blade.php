@@ -3,7 +3,11 @@
 
 
     <div class="bg-comics">
-
+        {{-- @foreach ($comics as $comic)
+                <ul>
+                    <li>{{ $comic }}</li>
+                </ul>
+            @endforeach --}}
     </div>
 
     <div class="logos-bar">

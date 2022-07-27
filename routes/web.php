@@ -21,7 +21,7 @@ Route::get('/', function () {
 Route::get("/comics", function () {
     $comics = config("comics");
 
-    return view("prodotti", [
+    return view("main", [
         "comics" => $comics
     ]);
     
