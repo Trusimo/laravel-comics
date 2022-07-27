@@ -24,16 +24,18 @@
 );
 
 @endphp
-<h5>DC COMICS</h5>
-@foreach ($dccomics as $footlist)
-    <ul>
-        <li>{{ $footlist }}</li>
-    </ul>
-@endforeach
+<div class="footer">
+        <h5>DC COMICS</h5>
+    @foreach ($dccomics as $footlist)
+        <ul>
+            <li>{{ $footlist }}</li>
+        </ul>
+    @endforeach
 
-<h5>DC</h5>
-@foreach ($dc as $footlist)
-    <ul>
-        <li>{{ $footlist }}</li>
-    </ul>
-@endforeach
+    <h5>DC</h5>
+    @foreach ($dc as $footlist)
+        <ul>
+            <li>{{ $footlist }}</li>
+        </ul>
+    @endforeach
+</div>
