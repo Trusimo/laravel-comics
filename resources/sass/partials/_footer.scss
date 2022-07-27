@@ -1,4 +1,27 @@
-.footer {
-    background-color: black;
+.bg-dc {
+    background-image: url(../public/img/footer-bg.jpg);
+    height: 400px;
+    display: flex;
+    position: relative;
     color: white;
+}
+
+.dc-big {
+    height: 500px;
+    position: absolute;
+    right: 200px;
+}
+
+.flex {
+    display: flex;
+    gap: 70px;
+}
+
+ul {
+    list-style: none;
+    font-size: 12px;
+}
+
+h5 {
+    font-size: 16px;
 }
