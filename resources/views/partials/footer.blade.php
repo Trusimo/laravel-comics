@@ -36,7 +36,8 @@ $sites = ['DC', 'Mad Magazine', 'DC Universe', 'DC Kids', 'DC Power Visa'];
                 </ul>
             @endforeach
         </div>
+
+        <img class="dc-big" src="{{ asset('img/dc-logo-bg.png') }}" alt="">
     </div>
-    
-</div>
+
 </div>
